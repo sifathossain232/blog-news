@@ -59,7 +59,6 @@ const NewsCoverPage = () => {
                     ))}
                
                 <div className="flex justify-center mt-[30px] pb-10">
-                    {/* <button className="border border-[#986B24] py-[14px] px-[24px]">Load More</button> */}
                     {visibleData.length < data.length && (
                         <button className="border border-[#986B24] text-[#986B24] font-xl py-[14px] px-[24px]" onClick={loadMore}>Load More</button>
                     )}

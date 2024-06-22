@@ -62,10 +62,10 @@ const NewsDetails = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="pb-[50px]">
-                        <div className="pb-">
+                        <div>
                             <Image src="/image/img3.png" alt="Loding...." width={648} height={415} />
                             <h1 className="text-[22px] font-medium mt-5">Collaboration to Develop Coffee and Beverage Industry Expertise in Indonesia</h1>
-                            <div className="flex gap-[10px] mt-[18px] pb-">
+                            <div className="flex gap-[10px] mt-[18px]">
                                 <p className="text-xl">4 Min</p>
                                 <li className="text-xl">August 19,2024</li>
                             </div>
