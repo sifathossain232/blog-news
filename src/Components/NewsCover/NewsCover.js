@@ -23,7 +23,7 @@ const NewsCoverPage = () => {
     return (
         <div>
             <div className='w-[1440px] h-[835px] bg-[#FCF7EF]'>
-                <div className='text-center pt-[70px]'>
+                <div className='text-center'>
                     <h1 className='text-[90px] font-semibold'>Our News</h1>
                     
                     <p className='text-xl font-medium mt-[17px]'>Get the latest updates and deeper coffee experience from IMAJI Coffee</p>
@@ -61,7 +61,7 @@ const NewsCoverPage = () => {
                 <div className="flex justify-center mt-[30px] pb-10">
                     {/* <button className="border border-[#986B24] py-[14px] px-[24px]">Load More</button> */}
                     {visibleData.length < data.length && (
-                        <button className="border border-[#986B24] py-[14px] px-[24px]" onClick={loadMore}>Load More</button>
+                        <button className="border border-[#986B24] text-[#986B24] font-xl py-[14px] px-[24px]" onClick={loadMore}>Load More</button>
                     )}
                 </div>
             </div>

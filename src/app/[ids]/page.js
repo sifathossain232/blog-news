@@ -39,7 +39,7 @@ const NewsDetails = () => {
                         clickable: true,
                     }}
                     modules={[Pagination]}
-                    className="mySwiper mt-10"
+                    className="mySwiper mt-10 mb-20"
                 >
                     <SwiperSlide>
                         <div>
@@ -61,7 +61,7 @@ const NewsDetails = () => {
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className="pb-[50px]">
                         <div>
                             <Image src="/image/img3.png" alt="Loding...." width={648} height={415} />
                             <h1 className="text-[22px] font-medium mt-5">Collaboration to Develop Coffee and Beverage Industry Expertise in Indonesia</h1>
