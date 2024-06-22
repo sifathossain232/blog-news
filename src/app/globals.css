@@ -3,13 +3,12 @@
 @tailwind utilities;
 .swiper-pagination-bullet-active {
    background-color: #986B24 !important;
-   /* margin-left: 20px; */
 }
 .swiper-pagination-bullets{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 .swiper-pagination-bullet{
     height: 20px !important;

@@ -28,7 +28,7 @@ const NewsDetails = () => {
                 <h3 className="mb-5 text-2xl">{data?.disc6}</h3>
                 <h3 className="mb-[134px] text-2xl">{data?.disc7}</h3>
             </div>
-            <div className="bg-[#FCF7EF] h-[887px] p-[60px]">
+            <div className="bg-[#FCF7EF] h-[950px] p-[60px]">
                 <div className="border-b-[1.5px] border-[#B8B8B8]">
                     <h1 className="text-[70px] font-semibold mb-10">Other News</h1>
                 </div>
@@ -39,7 +39,7 @@ const NewsDetails = () => {
                         clickable: true,
                     }}
                     modules={[Pagination]}
-                    className="mySwiper mt-10 mb-20"
+                    className="mySwiper mt-10"
                 >
                     <SwiperSlide>
                         <div>
@@ -62,10 +62,10 @@ const NewsDetails = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="pb-[50px]">
-                        <div>
+                        <div className="pb-">
                             <Image src="/image/img3.png" alt="Loding...." width={648} height={415} />
                             <h1 className="text-[22px] font-medium mt-5">Collaboration to Develop Coffee and Beverage Industry Expertise in Indonesia</h1>
-                            <div className="flex gap-[10px] mt-[18px] pb-[]">
+                            <div className="flex gap-[10px] mt-[18px] pb-">
                                 <p className="text-xl">4 Min</p>
                                 <li className="text-xl">August 19,2024</li>
                             </div>
